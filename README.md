@@ -21,7 +21,10 @@ Windows 64bit
 ### ソースコードからビルド
 1. リポジトリをクローンします
 2. ソースコードを次のようにビルドします
-   `cl MemoLeak-Chan.c /Od`
+   - Windows(Visual Studio 2017 Community)
+     `cl /Od MemoLeak-Chan.c`
+   - Linux(gcc)
+     `gcc -O0 MemoLeak-Chan.c`
 3. 生成された実行ファイルを実行します
 4. 確保したいサイズを指定します
 
